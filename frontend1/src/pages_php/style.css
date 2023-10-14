@@ -1,0 +1,17 @@
+.card-hover {
+    transition: transform 0.2s; /* Add a smooth transition for the effect */
+  }
+  
+  .card-hover:hover {
+    transform: scale(1.05); /* Enlarge the card when hovered */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add a box shadow on hover */
+  }
+
+
+
+  .form-label::after {
+    content: " *";
+    color: red;
+    font-weight: bold;
+    margin-left: 1px; /* Adjust as needed for spacing */
+  }
