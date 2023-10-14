@@ -17,7 +17,7 @@ function App() {
     <div className="button-container">
     
          
-    <Link to={'/node'}> <button className="styled-button"> Node </button></Link> 
+    <Link to={'/node'}> <button className="styled-button">MongoDB </button></Link> 
     <Link to={'/php'}> <button className="styled-button"> PHP </button></Link> 
             
          
