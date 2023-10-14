@@ -18,7 +18,7 @@ const [loading,setLoading]= useState(false);
 useEffect(()=>{
 setLoading(true);
 axios.get(`${php_BASE_URL}/books`).then((response)=>{
-  console.log('b',response.data)
+  // console.log('b',response.data)
     setBooks(response?.data);
     setLoading(false);
 })
